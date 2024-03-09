@@ -1,0 +1,11 @@
+package org.example.impl;
+
+import org.example.core.Medicine;
+import org.example.core.MedicineComponent;
+
+public class Analgin extends Medicine {
+
+    public Analgin(String name, int weight, int power) {
+        super(name, weight, power);
+    }
+}
